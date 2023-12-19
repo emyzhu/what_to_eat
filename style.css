@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+body, html {
+    height: 100%;
+    padding-top: 70px;
+
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: white;
+
+}
+
+body {
+    background-image: url("images/home_background.jpeg");
+
+    height: 100%;
+
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-size: cover;
+
+}
+
+.heading {
+
+    color: white;
+    margin: 20px;
+    margin-top: 90px;
+
+}
+
+.navbar {
+    background-color: #22d47b;
+    font-family: 'Goldman', cursive;
+}
+
+.navbar a:link, a:visited{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.container {
+    color: white;
+}
+
+.card {
+    color: black;
+}
+
+#search {
+
+    display: flex;
+    width: 100px;
+    height: 100px;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
+#search-form {
+    justify-content: center;
+}
+
+.table {
+    color: white;
+}
